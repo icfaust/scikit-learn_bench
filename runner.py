@@ -21,6 +21,7 @@ import os
 import socket
 import sys
 from typing import Any, Dict, List, Union
+os.environ["SKLEARNEX_PREVIEW"]="1"
 
 import utils
 from pathlib import Path
