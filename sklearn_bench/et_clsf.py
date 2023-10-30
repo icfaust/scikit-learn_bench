@@ -94,7 +94,7 @@ if __name__ == "__main__":
                         help='Needed impurity decrease for node splitting')
     parser.add_argument('--no-bootstrap', dest='bootstrap', default=False,
                         action='store_false', help="Don't control bootstraping")
-    parser.add_argument('--max-bins', type=int, default=1024,
+    parser.add_argument('--max-bins', type=int, default=2048,
                         help="Testing to see accuracy change")
 
     params = bench.parse_args(parser)
