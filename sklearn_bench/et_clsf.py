@@ -36,6 +36,7 @@ def main():
                                min_impurity_decrease=params.min_impurity_decrease,
                                bootstrap=params.bootstrap,
                                random_state=params.seed,
+                               max_bins = params.max_bins,
                                n_jobs=params.n_jobs)
 
     params.n_classes = len(np.unique(y_train))
@@ -93,6 +94,8 @@ if __name__ == "__main__":
                         help='Needed impurity decrease for node splitting')
     parser.add_argument('--no-bootstrap', dest='bootstrap', default=False,
                         action='store_false', help="Don't control bootstraping")
+    parser.add_argument('--max-bins', type=int, default=1024,
+                        help="Testing to see accuracy change")
 
     params = bench.parse_args(parser)
     bench.run_with_context(params, main)
