@@ -13,16 +13,16 @@
             "dataset": [
                 {
                     "source": "npy",
-                    "name": "higgs1m",
+                    "name": "higgs_10500K",
                     "training":
                     {
-                        "x": "data/higgs1m_x_train.npy",
-                        "y": "data/higgs1m_y_train.npy"
+                        "x": "data/higgs_10500K_x_train.npy",
+                        "y": "data/higgs_10500K_y_train.npy"
                     },
                     "testing":
                     {
-                        "x": "data/higgs1m_x_test.npy",
-                        "y": "data/higgs1m_y_test.npy"
+                        "x": "data/higgs_10500K_x_test.npy",
+                        "y": "data/higgs_10500K_y_test.npy"
                     }
                 }
             ],
@@ -34,16 +34,16 @@
             "dataset": [
                 {
                     "source": "npy",
-                    "name": "higgs1m",
+                    "name": "higgs_10500K",
                     "training":
                     {
-                        "x": "data/higgs1m_x_train.npy",
-                        "y": "data/higgs1m_y_train.npy"
+                        "x": "data/higgs_10500K_x_train.npy",
+                        "y": "data/higgs_10500K_y_train.npy"
                     },
                     "testing":
                     {
-                        "x": "data/higgs1m_x_test.npy",
-                        "y": "data/higgs1m_y_test.npy"
+                        "x": "data/higgs_10500K_x_test.npy",
+                        "y": "data/higgs_10500K_y_test.npy"
                     }
                 }
             ],
@@ -55,16 +55,16 @@
             "dataset": [
                 {
                     "source": "npy",
-                    "name": "higgs1m",
+                    "name": "higgs_10500K",
                     "training":
                     {
-                        "x": "data/higgs1m_x_train.npy",
-                        "y": "data/higgs1m_y_train.npy"
+                        "x": "data/higgs_10500K_x_train.npy",
+                        "y": "data/higgs_10500K_y_train.npy"
                     },
                     "testing":
                     {
-                        "x": "data/higgs1m_x_test.npy",
-                        "y": "data/higgs1m_y_test.npy"
+                        "x": "data/higgs_10500K_x_test.npy",
+                        "y": "data/higgs_10500K_y_test.npy"
                     }
                 }
             ],
@@ -76,16 +76,16 @@
             "dataset": [
                 {
                     "source": "npy",
-                    "name": "higgs1m",
+                    "name": "higgs_10500K",
                     "training":
                     {
-                        "x": "data/higgs1m_x_train.npy",
-                        "y": "data/higgs1m_y_train.npy"
+                        "x": "data/higgs_10500K_x_train.npy",
+                        "y": "data/higgs_10500K_y_train.npy"
                     },
                     "testing":
                     {
-                        "x": "data/higgs1m_x_test.npy",
-                        "y": "data/higgs1m_y_test.npy"
+                        "x": "data/higgs_10500K_x_test.npy",
+                        "y": "data/higgs_10500K_y_test.npy"
                     }
                 }
             ],
@@ -97,16 +97,16 @@
             "dataset": [
                 {
                     "source": "npy",
-                    "name": "higgs1m",
+                    "name": "higgs_10500K",
                     "training":
                     {
-                        "x": "data/higgs1m_x_train.npy",
-                        "y": "data/higgs1m_y_train.npy"
+                        "x": "data/higgs_10500K_x_train.npy",
+                        "y": "data/higgs_10500K_y_train.npy"
                     },
                     "testing":
                     {
-                        "x": "data/higgs1m_x_test.npy",
-                        "y": "data/higgs1m_y_test.npy"
+                        "x": "data/higgs_10500K_x_test.npy",
+                        "y": "data/higgs_10500K_y_test.npy"
                     }
                 }
             ],
@@ -118,16 +118,16 @@
             "dataset": [
                 {
                     "source": "npy",
-                    "name": "higgs1m",
+                    "name": "higgs_10500K",
                     "training":
                     {
-                        "x": "data/higgs1m_x_train.npy",
-                        "y": "data/higgs1m_y_train.npy"
+                        "x": "data/higgs_10500K_x_train.npy",
+                        "y": "data/higgs_10500K_y_train.npy"
                     },
                     "testing":
                     {
-                        "x": "data/higgs1m_x_test.npy",
-                        "y": "data/higgs1m_y_test.npy"
+                        "x": "data/higgs_10500K_x_test.npy",
+                        "y": "data/higgs_10500K_y_test.npy"
                     }
                 }
             ],
@@ -139,16 +139,16 @@
             "dataset": [
                 {
                     "source": "npy",
-                    "name": "higgs1m",
+                    "name": "higgs_10500K",
                     "training":
                     {
-                        "x": "data/higgs1m_x_train.npy",
-                        "y": "data/higgs1m_y_train.npy"
+                        "x": "data/higgs_10500K_x_train.npy",
+                        "y": "data/higgs_10500K_y_train.npy"
                     },
                     "testing":
                     {
-                        "x": "data/higgs1m_x_test.npy",
-                        "y": "data/higgs1m_y_test.npy"
+                        "x": "data/higgs_10500K_x_test.npy",
+                        "y": "data/higgs_10500K_y_test.npy"
                     }
                 }
             ],
@@ -160,16 +160,16 @@
             "dataset": [
                 {
                     "source": "npy",
-                    "name": "higgs1m",
+                    "name": "higgs_10500K",
                     "training":
                     {
-                        "x": "data/higgs1m_x_train.npy",
-                        "y": "data/higgs1m_y_train.npy"
+                        "x": "data/higgs_10500K_x_train.npy",
+                        "y": "data/higgs_10500K_y_train.npy"
                     },
                     "testing":
                     {
-                        "x": "data/higgs1m_x_test.npy",
-                        "y": "data/higgs1m_y_test.npy"
+                        "x": "data/higgs_10500K_x_test.npy",
+                        "y": "data/higgs_10500K_y_test.npy"
                     }
                 }
             ],
@@ -181,16 +181,16 @@
             "dataset": [
                 {
                     "source": "npy",
-                    "name": "higgs1m",
+                    "name": "higgs_10500K",
                     "training":
                     {
-                        "x": "data/higgs1m_x_train.npy",
-                        "y": "data/higgs1m_y_train.npy"
+                        "x": "data/higgs_10500K_x_train.npy",
+                        "y": "data/higgs_10500K_y_train.npy"
                     },
                     "testing":
                     {
-                        "x": "data/higgs1m_x_test.npy",
-                        "y": "data/higgs1m_y_test.npy"
+                        "x": "data/higgs_10500K_x_test.npy",
+                        "y": "data/higgs_10500K_y_test.npy"
                     }
                 }
             ],
