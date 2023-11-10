@@ -87,7 +87,7 @@
                 }
             ],
             "workload-size": "medium",
-            "num-trees": 200,
+            "num-trees": 200
         }    
     ]
 }
