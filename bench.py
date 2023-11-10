@@ -175,8 +175,6 @@ def parse_args(parser, size=None, loop_types=(),
                              'while automatically picking number of '
                              'inner loops. If zero, do not automatically '
                              'decide number of inner loops.')
-    parser.add_argument('--seed', type=int, default=12345,
-                        help='Seed to pass as random_state')
     parser.add_argument('--dataset-name', type=str, default=None,
                         help='Dataset name')
     parser.add_argument('--no-intel-optimized', default=False,
