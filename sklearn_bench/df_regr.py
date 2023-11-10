@@ -85,6 +85,8 @@ if __name__ == "__main__":
                         help='Needed impurity decrease for node splitting')
     parser.add_argument('--no-bootstrap', dest='bootstrap', default=True,
                         action='store_false', help="Don't control bootstraping")
+    parser.add_argument('--seed', type=int, default=12345,
+                        help='Seed to pass as random_state')
 
     params = bench.parse_args(parser)
     bench.run_with_context(params, main)
