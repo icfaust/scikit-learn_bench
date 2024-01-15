@@ -21,7 +21,7 @@ import os
 import socket
 import sys
 from typing import Any, Dict, List, Union
-os.environ["SKLEARNEX_PREVIEW"]="1"
+os.environ["DAL_BLAS_COMPUTE_MODE"]="FLOAT_TO_BF16"
 
 import utils
 from pathlib import Path
