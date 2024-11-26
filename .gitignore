@@ -1,18 +1,20 @@
-# Logs
-*.log
-
-# Release and work directories
+# Python cache
 __pycache__*
-__work*
 
 # Visual Studio related files, e.g., ".vscode"
 .vs*
 
-# Datasets
-data
-*.csv
-*.npy
 
-# Results
-results*.json
-*.xlsx
+# Misc. files at repository root:
+# - default data cache directory
+/data_cache
+# - results
+/_*results*
+/*.json
+/*.xlsx
+# - scripts
+/*.ipynb
+/*.py
+/*.sh
+# - archives with results or data
+/*.tgz
