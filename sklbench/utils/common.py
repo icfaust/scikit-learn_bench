@@ -20,6 +20,7 @@ import inspect
 import json
 import re
 import subprocess as sp
+import warnings
 from pprint import pformat
 from shutil import get_terminal_size
 from typing import Any, Dict, List, Tuple, Union
@@ -66,7 +67,11 @@ def read_output_from_command(command: str) -> Tuple[int, str, str]:
         stderr=sp.PIPE,
         encoding="utf-8",
     )
-    return res.returncode, res.stdout[:-1], res.stderr[:-1]
+    return (
+        res.returncode,
+        res.stdout.strip(),
+        res.stderr.strip(),
+    )
 
 
 def hash_from_json_repr(x: JsonTypesUnion, hash_limit: int = 5) -> str:
@@ -120,7 +125,7 @@ def flatten_list(input_list: List, ensure_type_homogeneity: bool = False) -> Lis
 
 
 def get_module_members(
-    module_names_chain: Union[List, str]
+    module_names_chain: Union[List, str],
 ) -> Tuple[ModuleContentMap, ModuleContentMap]:
     def get_module_name(module_names_chain: List[str]) -> str:
         name = module_names_chain[0]
@@ -210,6 +215,12 @@ def convert_to_numpy(a, dp_compat=False) -> np.ndarray:
 
         return dpnp.asnumpy(a)
     elif "dpctl" in str(type(a)):
+        warnings.warn(
+            "dpctl tensors are deprecated and support for them "
+            "in scikit-learn_bench will be removed. "
+            "Consider using dpnp arrays instead.",
+            FutureWarning,
+        )
         import dpctl.tensor
 
         return dpctl.tensor.to_numpy(a)
